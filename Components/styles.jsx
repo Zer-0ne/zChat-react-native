@@ -1,0 +1,96 @@
+import { StyleSheet } from 'react-native';
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: 'black',
+        color: 'red',
+        alignItems: 'flex-start',
+        flexDirection: 'column',
+    },
+    text: {
+        // flex: 1,
+        color: 'black',
+        display: 'flex',
+        backgroundColor: 'red',
+        justifyContent: 'center',
+        alignItems: 'center',
+        alignContent: 'center',
+        textAlign: 'center',
+        width: '100%',
+        height: 28.5,
+    },
+    bodyContainer: {
+        flex: 27,
+        width: '100%',
+        display: 'flex',
+        alignContent: 'center',
+        textAlign: 'center',
+        position: 'relative',
+        alignItems: 'center',
+    },
+    chatContainer: {
+        flex: 1,
+        width: '95%',
+        margin: 6,
+        borderRadius: 5,
+        marginBottom:38,
+        alignItems: 'center',
+    },
+    Chats: {
+        flex: 1,
+        width:'95%',
+    },
+    inputContainer: {
+        // flex: 1,
+        backgroundColor: '#00000082',
+        position: 'absolute',
+        bottom: 0,
+        width:'100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    name: {
+        fontSize: 50,
+        fontWeight: 'bold',
+        color: 'cyan',
+    },
+    input: {
+        padding: 5,
+        borderBottomColor: 'red',
+        borderBottomWidth: 1,
+        flex: 1,
+        width: '90%',
+        color: 'white',
+    },
+    Search: {
+        position: 'absolute',
+        right: 24,
+        bottom: 4,
+        backgroundColor:'black',
+        fontSize: 18,
+        padding: 5
+    },
+    Chat: {
+        color: 'white',
+        backgroundColor: '#1f1d1dcf',
+        // flex: 1,
+        // maxHeight: '90%',
+        width: '100%',
+        padding: 20,
+        marginTop: 10,
+        borderRadius: 10,
+        justifyContent: 'flex-start',
+        borderRadius: 10,
+        
+    },
+    Text: {
+        textAlign: 'justify',
+        color: 'white',
+        whiteSpace: 'pre-wrap',
+        margin:1,
+        lineHeight: 30,
+        fontSize:16,
+        fontFamily: '',
+    }
+});
+export { styles }
