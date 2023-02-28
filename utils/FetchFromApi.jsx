@@ -6,7 +6,7 @@ export const FetchFromApi = async (query) => {
         url: 'https://chatgpt-ai-chat-bot.p.rapidapi.com/ask',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '1546dedbdamsh51b66684215d507p190685jsn26898baac941',
+            'X-RapidAPI-Key': <YOUR_API_KEY>,
             'X-RapidAPI-Host': 'chatgpt-ai-chat-bot.p.rapidapi.com'
         },
         data: {"text":`${query}`}
